@@ -1,0 +1,1 @@
+This repo contains the details for a scalable functional assignment pipeline. This pipeline is for when we need to annotate lots of annoations, and we are blasting against the NR (non redundant) dataset in blast. 
