@@ -16,7 +16,7 @@ idMappingFile = open(idMappingPath)
 #the result of running this script is a mapping file that only contains IDs that are in the NR dataset
 #reference this post: https://www.biostars.org/p/164641/
 outPath = sys.argv[2]
-outFile = open(sys.argv[2])
+outFile = open(sys.argv[2], "w")
 
 dbIDs = ["geneid", "gi", "embl", "refseq", "pir", "pdb", "uniprotkb-ac", "uniprotkb-id"]
 
